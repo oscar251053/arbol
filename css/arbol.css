@@ -1,0 +1,69 @@
+/*reseteo de valores*/
+*{
+    margin:0;
+   padding:0;
+   box-sizing: border-box; /*para que la caja no crezca con el padding*/
+}
+/* Aseguramos que el contenedor ocupe todo el espacio de la pantalla */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    position: fixed; /* Hace que el fondo no se mueva al hacer scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/arbol.jpg"); /* Ruta a la imagen */
+    background-size: 100% 100%; /* Escala la imagen para llenar todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.padres{
+    text-align: center;
+    padding: 5%;    
+}
+.hijos{
+    text-align: center;
+}
+.nietos{
+    padding: 5%;
+    margin-left: 9%;
+}
+.nivel1{
+    padding-left: 20px;
+    margin-top: 10%;
+    text-decoration: none;
+    color: greenyellow;
+    background: rgba(7, 76, 7, 0.1)
+}
+.nivel2{
+    border-left: 5%;
+    text-align: center;
+    padding: 10%;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+    text-decoration: none;
+    color: greenyellow;
+    background: rgba(7, 76, 7, 0.1)
+}
+.nivel3{  
+    text-decoration: none;
+    color: greenyellow;
+    background: rgba(7, 76, 7, 0.1);     
+    padding: 5%;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.nivel4{
+    text-decoration: none;
+    color: greenyellow;
+    background: rgba(7, 76, 7, 0.1);
+    padding: 5%;
+    padding-bottom: 0;
+    padding-top: 0;
+}
