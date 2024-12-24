@@ -1,8 +1,8 @@
 /*reseteo de valores*/
 *{
     margin:0;
-   padding:0;
-   box-sizing: border-box; /*para que la caja no crezca con el padding*/
+    padding:0;
+    box-sizing: border-box; /*para que la caja no crezca con el padding*/
 }
 /* Aseguramos que el contenedor ocupe todo el espacio de la pantalla */
 body, html {
@@ -39,6 +39,10 @@ body {
     text-decoration: none;
     color: greenyellow;
     background: rgba(7, 76, 7, 0.1)
+}
+.nivel1:hover, .nivel2:hover, .nivel3:hover, .nivel4:hover{
+    color: rgb(198, 231, 30);
+    font-size: x-large;
 }
 .nivel2{
     border-left: 5%;
