@@ -1,0 +1,62 @@
+/*reseteo de valores*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body, html {
+        height: 100%;
+        width: 100%;
+    }
+    body {
+        background-image: url('../assets/img/arbol.jpg');
+        background-size: 100% 100%; /* Escala la imagen para que toda sea visible */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita repeticiones de la imagen */
+    }
+.padres, .hijos, .nietos{
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+.nivel1, .nivel2, .nivel3, .nivel4, .nivel5, .nivel6, .nivel7, .nivel8, .nivel9{
+    color: #60cd17;
+    text-decoration: none;
+
+}
+.nivel1:hover, .nivel2:hover, .nivel3:hover, .nivel4:hover, .nivel5:hover, .nivel6:hover, .nivel7:hover, .nivel8:hover, .nivel9:hover{
+    color: #a0c64e;
+    font-size: x-large;
+}
+.nivel1{
+    padding-right: 20px;
+}
+.nivel2{
+    padding-left: 20px;
+}
+.nivel3{
+    padding-right: 10%;
+}
+.nivel4{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.nivel5{
+    padding-left: 10%;
+}
+.nivel6{
+    padding-right: 3%;
+}
+.nivel7{
+    padding-left: 7%;
+    padding-right: 5%;
+}
+.nivel8{
+    padding-right: 8%;
+    padding-left: 5%;
+}
+.nivel9{
+    padding-left: 0;
+    padding-right: 25%;
+}
